@@ -1,1 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact — QA Smarts</title>
+  <meta name="description" content="Contact QA Smarts — Louisville, KY."/>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+  <!--#include virtual="/_nav.html" -->
 
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="h1" style="font-size:38px">Contact</h1>
+        <p class="sub">Fastest way: email your website URL for a free 1-page audit.</p>
+
+        <div class="grid2">
+          <div class="tile">
+            <h2 style="margin:0 0 8px">Direct contact</h2>
+            <ul class="list">
+              <li><strong>Email:</strong> <a href="mailto:hello@qasmarts.tech">hello@qasmarts.tech</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+14044256990">(404) 425-6990</a></li>
+              <li><strong>Location:</strong> Louisville, KY</li>
+            </ul>
+            <div style="margin-top:12px">
+              <a class="btn btn-primary" href="/free-audit.html">Request Free Audit</a>
+              <a class="btn" href="tel:+14044256990">Call Now</a>
+            </div>
+          </div>
+
+          <div class="card card-pad">
+            <h2 style="margin:0 0 8px">Quick message</h2>
+            <p style="margin:0 0 12px;color:var(--muted)">This opens an email draft.</p>
+            <form class="form" data-mailto="hello@qasmarts.tech">
+              <input type="hidden" name="subject" value="QA Smarts — Contact"/>
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="Name" required placeholder="Your name"/>
+              </div>
+              <div>
+                <label for="company">Company</label>
+                <input id="company" name="Company" placeholder="HVAC company name"/>
+              </div>
+              <div>
+                <label for="site">Website (optional)</label>
+                <input id="site" name="Website" placeholder="https://..."/>
+              </div>
+              <div>
+                <label for="msg">Message</label>
+                <textarea id="msg" name="Message" required placeholder="What should I look at? (speed, mobile, calls, forms...) "></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!--#include virtual="/_footer.html" -->
+</body>
+</html>
